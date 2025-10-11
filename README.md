@@ -218,12 +218,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 👥 Team / Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
----
+MindScope
 
 ## 🙏 Acknowledgments
 
@@ -233,15 +228,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 - **Material Design** - UI/UX guidelines
 - **Mental health professionals** - Feature validation
 
----
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/aura-mental-health-app/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/aura-mental-health-app/discussions)
-- **Email**: support@auraapp.example.com
-
----
 
 ## ⚠️ Disclaimer
 
