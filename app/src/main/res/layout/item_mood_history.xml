@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dateTimeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date and Time"
+            android:textSize="14sp"
+            android:textColor="#999999" />
+
+        <TextView
+            android:id="@+id/crisisIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Crisis"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emotionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emotion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/quadrantText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quadrant"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/intensityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intensity: -"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/journalPreviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journal preview..."
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Usage Tracking"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/permissionStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checking permission..."
+            android:textSize="18sp"
+            android:textColor="#6200EE"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/grantPermissionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grant Usage Access Permission"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/screenTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screen Time: --"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/topAppsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading app usage..."
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/insightsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/saveUsageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Usage Data"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:enabled="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Tip: This data helps us understand patterns between phone usage and your mood."
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:layout_marginTop="24dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

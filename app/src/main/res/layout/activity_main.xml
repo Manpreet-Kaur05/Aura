@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <!-- App Logo/Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aura"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="#6200EE"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mental Health Companion"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Welcome Message -->
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="24sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginBottom="48dp"
+            android:gravity="center" />
+
+        <!-- Track Mood Button -->
+        <Button
+            android:id="@+id/trackMoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 Track Your Mood"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- Phone Usage Tracking Button -->
+        <Button
+            android:id="@+id/usageTrackingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 Phone Usage Stats"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- View Dashboard Button -->
+        <Button
+            android:id="@+id/viewHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 View Dashboard"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- Support Resources Button -->
+        <Button
+            android:id="@+id/supportResourcesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💙 Support Resources"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- Gratitude Journal Button -->
+        <Button
+            android:id="@+id/gratitudeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Gratitude Journal"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#F57C00"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- AI Chatbot Button -->
+        <Button
+            android:id="@+id/chatbotButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🤖 Chat with Assistant"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#9C27B0"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+        <!-- Anonymous Vent Button -->
+        <Button
+            android:id="@+id/ventButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬 Anonymous Vent Space"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#4A148C"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="24dp"
+            android:textAllCaps="false" />
+
+        <!-- App Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track your emotions, understand your patterns,\nand improve your mental well-being."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="#757575"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false" />
+
+        <!-- Multimodal Check-In Button -->
+        <Button
+            android:id="@+id/multimodalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎥 Multimodal Check-In"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:backgroundTint="#3F51B5"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+</ScrollView>

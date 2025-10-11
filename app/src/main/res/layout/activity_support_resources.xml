@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💙 Support Resources"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Crisis Helplines -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🆘 24/7 Crisis Helplines"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E53935"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/aasraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AASRA: 9152987821"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/iCallButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iCall: 022-25521111"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/snehaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sneha: 044-24640050"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/emergencyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency: 112"
+            android:backgroundTint="#C62828"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Coping Strategies -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛠️ Quick Coping Strategies"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:id="@+id/strategiesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Professional Help -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👨‍⚕️ Professional Help"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/findTherapistButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find a Therapist Near You"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/teletherapyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Therapy Options"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Mindfulness Resources -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧘 Mindfulness and Relaxation"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/breathingExerciseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guided Breathing Exercise"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#000000"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/meditationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation Resources"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</ScrollView>

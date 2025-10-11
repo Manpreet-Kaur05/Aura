@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling?"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Mood Quadrant"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/quadrantRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/radioHighEnergyPositive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌟 High Energy + Positive (Excited, Happy, Energetic)"
+                android:tag="high-energy-positive"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioLowEnergyPositive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="😌 Low Energy + Positive (Calm, Peaceful, Content)"
+                android:tag="low-energy-positive"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioHighEnergyNegative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="😰 High Energy + Negative (Anxious, Angry, Stressed)"
+                android:tag="high-energy-negative"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioLowEnergyNegative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="😔 Low Energy + Negative (Sad, Tired, Lonely)"
+                android:tag="low-energy-negative"
+                android:padding="12dp"
+                android:background="@android:color/white"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specific Emotion"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/emotionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="24dp"
+            android:minHeight="48dp" />
+
+        <!-- INTENSITY SLIDER SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emotion Intensity"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low"
+                android:textSize="14sp"
+                android:textColor="#999999"
+                android:layout_marginEnd="8dp" />
+
+            <SeekBar
+                android:id="@+id/intensitySeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:progress="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High"
+                android:textSize="14sp"
+                android:textColor="#999999"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/intensityValueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5/10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#6200EE"
+                android:layout_marginStart="16dp"
+                android:minWidth="60dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- TRIGGER CONTEXT SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What triggered this feeling?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/triggerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g., Work stress, argument, good news... (Optional)"
+            android:inputType="text"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- JOURNAL ENTRY SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journal Entry (Optional)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#666666"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/journalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="What's on your mind? Write about your feelings..."
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/saveMoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Mood Entry"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- PROGRESS BAR -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
