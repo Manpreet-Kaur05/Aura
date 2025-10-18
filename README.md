@@ -1,5 +1,39 @@
 # Aura - AI-Powered Mental Health Companion
 
+> **Enhanced Fork** with comprehensive documentation
+
+**Original Team Repository:** [oorjatiwari23/Aura](https://github.com/oorjatiwari23/Aura)
+
+---
+
+## 📝 About This Fork
+
+This fork includes **frontend enhancements and comprehensive documentation** added by **Manpreet**, the frontend developer from the original hackathon team.
+
+### Enhancements Added
+✅ Complete frontend development documentation  
+✅ UI/UX design guide with color psychology  
+✅ Enhanced color palette for accessibility  
+✅ Standardized spacing and dimensions system  
+✅ Reusable component styles library  
+
+---
+
+## 👥 Original Team - MindScope
+
+**Hackathon:** Siemens CodeConnect 2025  
+
+**Team Members:**
+- **Oorja Tiwari** - Backend Architecture & Integration
+- **Khushi Sharma** - ViewModels & Data Binding  
+- **Gauri Upadhyay** - Database Design & ML Features
+- **Manpreet** - Frontend UI/UX Development
+
+**My Role:** Designed and implemented complete user interface for all screens including mood tracking, dashboard, multimodal check-ins, anonymous vent space, AI chatbot, and crisis resources.
+
+---
+# Aura - AI-Powered Mental Health Companion
+
 ![Platform](https://img.shields.io/badge/Platform-Android-green.svg)
 ![Language](https://img.shields.io/badge/Language-Java-orange.svg)
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-yellow.svg)
